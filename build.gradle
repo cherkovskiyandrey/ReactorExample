@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.tango'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'io.projectreactor', name: 'reactor-core', version: '3.2.8.RELEASE'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
